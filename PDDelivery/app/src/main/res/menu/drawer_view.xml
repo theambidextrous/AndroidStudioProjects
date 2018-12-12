@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_dashboard"
+            android:title="@string/dashboard" />
+        <item
+            android:id="@+id/nav_my_delivery"
+            android:icon="@drawable/ic_menu_delivery"
+            android:title="@string/my_delivery" />
+        <item
+            android:id="@+id/nav_track"
+            android:icon="@drawable/ic_menu_track"
+            android:title="@string/track" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@drawable/ic_menu_reports"
+            android:title="@string/reports" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/settings" />
+        <!--<item-->
+            <!--android:id="@+id/sign_out"-->
+            <!--android:icon="@drawable/ic_menu_signout"-->
+            <!--style="?android:textAppearanceSmall"-->
+            <!--android:title="@string/btn_sign_out"-->
+            <!--android:textColor="@color/colorPrimaryDark"/>-->
+
+    </group>
+</menu>
